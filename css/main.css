@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+}
+
+
+#h1 {
+    color: brown;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+#btn {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#button {
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    width: 700px;
+    padding: 5px;
+    background-color: rgb(0, 153, 255);
+    margin-bottom: 100px;
+    transform: all 3s;
+}
+
+#button:hover {
+    background-color: red;
+    border: 1px solid black;
+    font-weight: bold;
+    color: black;
+    transform: scale(1.1 , 1.1);
+}
+
+#layout {
+    margin: auto;
+    border-radius: 5px;
+    width: 800px;
+    height: 150px;
+    background-color: rgba(245, 179, 179, 0.082);
+    position: relative;
+}
+
+#layin {
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(165, 42, 42, 0.342);
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    
+}
+
+p {
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+}
+
+#non {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: silver;
+    position: relative;
+    margin: auto;
+    position: absolute;
+    top: 90px;
+    right: 35%;
+    
+}
+
+.display {
+    display: none;
+}
+
+#close {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.521);
+    border: 2px dashed rgba(165, 42, 42, 0.582);
+    border-radius: 5px;
+    position: absolute;
+    top: 350px;
+    left: 330px;
+}
+
+#close:hover {
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+
+
+#non2 {
+    padding-left: 5px;
+    padding-top: 70px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 275px;
+    margin-top: 5px;
+}
+
+#button2 {
+    background-color: brown;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#button2:hover {
+    color: brown;
+    background-color: black;
+}
+
+
+h4 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#delete {
+    margin-left: 735px;
+    margin-top: 110px;
+    padding: 5px;
+    background: linear-gradient(to right , wheat 40% , red );
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+#delete:hover {
+    background: linear-gradient(to right , red , wheat 40% );
+}
+
+.cheked {
+    text-decoration: line-through;
+}
+
